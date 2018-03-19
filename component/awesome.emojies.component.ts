@@ -1,6 +1,6 @@
-import * as EmojiIcons from "./../emojies";
-import { EmojiModel, EmojiesContainer } from './../Emoji.Model';
 import { Component, Output, EventEmitter, OnInit } from "@angular/core";
+import * as EmojiIcons from "./../emojies";
+import { EmojiModel, EmojiesContainer } from './../model/Emoji.Model';
 
 @Component({
     selector: "awesome-emojies",
