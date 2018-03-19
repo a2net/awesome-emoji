@@ -1,0 +1,8 @@
+<div *ngFor="let emojiSection of emojies" class="emoji-section">
+    <h3>{{emojiSection.name}}</h3>
+    <content>
+        <button *ngFor="let emojiModel of emojiSection.emojies" (click)="emojiSelected(emojiModel)">
+            {{emojiModel.value}}
+        </button>
+    </content>
+</div>
