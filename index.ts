@@ -1,1 +1,1 @@
-export { AwesomeEmojiesModule } from './module/awesome.emojies.module';
+export { AwesomeEmojiesModule } from './awesome-emojis/module/awesome.emojies.module';

@@ -4,5 +4,5 @@ export interface EmojiesContainer {
 }
 export interface EmojiModel {
     key: string;
-    value: string
+    value: string;
 }
